@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mini Record Management System</title>
+		<script src="main.js"></script>
+	</head>
+	<body>
+		<h1>Mini Record Management System</h1>
+		<table>
+			<tr>
+				<td>Name</td>
+				<td><input type="text" id="name" /></td>
+				<td><span id="name_msg"></span></td>
+			</tr>
+			
+				<tr>
+				<td>Math</td>
+				<td><input type="number" id="math" /></td>
+				<td><span id="math_msg"></span></td>
+			</tr>
+			<tr>
+				<td>English</td>
+				<td><input type="number" id="english" /></td>
+				<td><span id="english_msg"></span></td>
+			</tr>
+			<tr>
+				<td>Urdu</td>
+				<td><input type="number" id="urdu" /></td>
+				<td><span id="urdu_msg"></span></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="button" value="Save" onclick="saveRecord()" /></td>
+			</tr>
+		</table>
+		
+		<br />
+		<table id="studentsTable" cellpadding="5" border="1">
+			<tr>
+				<th width="60px">S.No</th>
+				<th width="300px">Name</th>
+				<th width="100px">Math</th>
+				<th width="100px">English</th>
+				<th width="100px">Urdu</th>
+				<th width="100px">Total Marks</th>
+				<th width="100px">Percentage</th>
+			</tr>
+		</table>
+	</body>
+</html>
